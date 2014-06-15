@@ -1,13 +1,13 @@
-PasswordGeneratorClass
+Password generator class
 ======================
 
 Class for generating passwords
 
-This class is helper for generating passwords with several parameters.
+This class is a helper for generating passwords with several parameters.
 By default it generates password 12 characters long, including digits, lower\uppercase characters and special symbols.
  
-* You need to include php class file first.
-* For example: include_once( 'include/PasswordGenerator.php' );
+! You need to include php class file first.
+For example: include_once( 'include/PasswordGenerator.php' );
 
 Basic Usage Example
 $password = new PasswordGenerator;
